@@ -55,12 +55,10 @@ span {
 
 .error {
   border: 1px solid red;
-  display: flex;
   padding: 20px;
   max-width: 200px;
   border-radius: 5px;
-  justify-content: center;
-  margin-top: 50px;
+  text-align: center;
 }
 
 .error p {

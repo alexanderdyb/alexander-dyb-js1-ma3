@@ -29,7 +29,7 @@ async function getData() {
         </div>`;
     }
   } catch (error) {
-    moviesContainer.innerHTML = displayError("An error occured");
+    gamesContainer.innerHTML = displayError("An error occured");
   }
 }
 
