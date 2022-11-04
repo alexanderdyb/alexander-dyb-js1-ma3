@@ -1,3 +1,11 @@
+h1 {
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
 .loader {
   width: 48px;
   height: 48px;
@@ -18,9 +26,32 @@
   }
 }
 
+.movies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  margin: auto;
+}
+
 .movieList {
   margin: 1rem;
   padding: 1rem;
   max-width: 300px;
-  border: 1px solid #000000;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.error {
+  border: 1px solid red;
+  display: flex;
+  padding: 20px;
+  max-width: 200px;
+  border-radius: 5px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.error p {
+  font-weight: bold;
 }
