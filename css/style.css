@@ -37,14 +37,14 @@ span {
   }
 }
 
-.movies {
+.games {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 1000px;
   margin: auto;
 }
 
-.movieList {
+.gameList {
   margin: 1rem;
   padding: 1rem;
   max-width: 300px;
